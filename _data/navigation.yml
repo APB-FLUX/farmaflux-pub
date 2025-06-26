@@ -1,0 +1,14 @@
+- title: "Technical Documentation"
+  children:
+    - title: "PharmForms"
+      url: "/Technical Documentation/PharmForms/"
+    - title: "PHM Portal"
+      children:
+        - title: "VACCINATION"
+          children:
+            - title: "PharmForm PHM"
+              url: "/Technical Documentation/PHM Portal/VACCINATION/PharmForm_PHM"
+            - title: "Testing PHM"
+              url: "/Technical Documentation/PHM Portal/VACCINATION/Testing_PHM"
+            - title: "Vaccination README"
+              url: "/Technical Documentation/PHM Portal/VACCINATION/README"
