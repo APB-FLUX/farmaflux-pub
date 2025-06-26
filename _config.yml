@@ -1,9 +1,10 @@
 # _config.yml
 
-title:FarmaFlux Services Programs Projects
-description: For FLUX, a known path – for you, the tangled web unraveled
+title: "FarmaFlux Services Programs Projects"
+description: "For FLUX, a known path for you, the tangled web unraveled"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://apb-flux.github.io/farmaflux-pub/" # the base hostname & protocol for your site
+
 
 
 
