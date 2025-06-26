@@ -1,34 +1,5 @@
-# _config.yml
-
-title:FarmaFlux Services Programs Projects
-description: For FLUX, a known path – for you, the tangled web unraveled
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://apb-flux.github.io/farmaflux-pub/" # the base hostname & protocol for your site
-
-
-
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Optional settings
-markdown: kramdown
-kramdown:
-  input: GFM
-
-# Exclude these files from the build
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-
-# Social links (optional)
-social_links:
-  twitter: yourhandle
-  github: yourusername
-
-# Google Analytics (optional)
-google_analytics: UA-XXXXXXXXX-X
+title: Tactile theme
+description: Tactile is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-tactile
