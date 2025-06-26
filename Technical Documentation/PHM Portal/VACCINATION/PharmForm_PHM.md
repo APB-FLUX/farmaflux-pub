@@ -5,7 +5,7 @@
     - [CheatSheet questionnaire type ‘phm’](#cheatsheet-questionnaire-type-phm)
   - [Accessing the PHM Portal vaccination through the popvax app](#accessing-the-phm-portal-vaccination-through-the-popvax-app)
     - [CheatSheet questionnaire type ‘popvax’](#cheatsheet-questionnaire-type-popvax)
-  - [Accessing the PHM Portal vaccination through the popvax app](#accessing-the-phm-portal-vaccination-through-the-popvax-app-1)
+  - [Accessing the PHM Portal vaccination through the vaccinnetregistration app](#accessing-the-phm-portal-vaccination-through-the-vaccinnetregistration-app)
     - [CheatSheet questionnaire type ‘vaccinnetregistration’](#cheatsheet-questionnaire-type-vaccinnetregistration)
 
 *See also [REST Services](https://apbcommunity.atlassian.net/wiki/spaces/FLUX/pages/105251339/Pharm+Forms+-+REST+Services)* 
@@ -31,7 +31,7 @@
 2. ***Launchaction: true*** ==> Patient is in TARGET GROUP to be sensibilised.
 
 
-## Accessing the PHM Portal vaccination through the popvax app
+## Accessing the PHM Portal vaccination through the vaccinnetregistration app
 ### CheatSheet questionnaire type ‘vaccinnetregistration’
 
 1. ***Idppharmacysaml()***

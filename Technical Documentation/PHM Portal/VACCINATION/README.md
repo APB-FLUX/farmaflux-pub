@@ -9,7 +9,10 @@ The PHM Portal will initially consist of the Patient section, with a full focus 
 - Information on FarmaFlux Site
     - PHM-Vaccinatie: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/VACC/phm-vaccinatie~248NL) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/VACC/phm-vaccination~248FR)
     - PopVax 2024-2025: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/VACC/popvax-2024-2025~249FR) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/VACC/popvax-2024-2025~249FR)
-- Technical Information: 
+- Technical Information on the PHM - Vaccination: 
   - [PharForm App](PharmForm_PHM.md)
   - [Testing Guidelines](Testing_PHM.md)
+- Technical Information on the Pharm Forms
   - [REST Services](https://apbcommunity.atlassian.net/wiki/spaces/FLUX/pages/105251339/Pharm+Forms+-+REST+Services)
+  - [Pharm Form Concepts](https://apbcommunity.atlassian.net/wiki/spaces/FLUX/pages/105251325/Pharm+Form+Concepts)
+  - 
