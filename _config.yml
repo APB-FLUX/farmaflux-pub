@@ -6,7 +6,7 @@ description: "Operational information quickly at hand regarding the active servi
 url: "https://apb-flux.github.io/"
 baseurl: ""  # Set to "/repo-name" if hosted in a subdirectory
 
-theme: "docsy-jekyll"
+theme: "just-the-docs"
 
 # Docsy Jekyll settings
 repository_url: "https://github.com/apb-flux/farmaflux-pub"
@@ -18,3 +18,19 @@ edit_page_button: true
 # disqus_shortname: your-shortname
 
 # Navigation is handled in _data/navigation.yml
+
+nav:
+  - title: "Technical Documentation"
+    children:
+      - title: "PharmForms"
+        url: "/Technical Documentation/PharmForms/"
+      - title: "PHM Portal"
+        children:
+          - title: "VACCINATION"
+            children:
+              - title: "PharmForm PHM"
+                url: "/Technical Documentation/PHM Portal/VACCINATION/PharmForm_PHM.md"
+              - title: "Testing PHM"
+                url: "/Technical Documentation/PHM Portal/VACCINATION/Testing_PHM.md"
+              - title: "Vaccination README"
+                url: "/Technical Documentation/PHM Portal/VACCINATION/README.md"
