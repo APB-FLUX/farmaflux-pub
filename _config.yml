@@ -1,6 +1,7 @@
 title: "FarmaFlux Services Programs Projects"
 description: "For FLUX, a known path for you, the tangled web unraveled"
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+
 
 # URL settings
 baseurl: "" # e.g. /docs if hosted at https://username.github.io/docs
