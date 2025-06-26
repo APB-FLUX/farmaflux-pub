@@ -1,4 +1,3 @@
-# Services
 
 <div style="text-align: center" > 
 <H1 style="text-align: center;border : 0">
@@ -9,14 +8,11 @@ Services – Programs – Projects   <br>
   <i style="text-align: center">For FLUX, a known path – for you, the tangled web unraveled </i>
   <br>
   <br>
-<img src="https://www.farmaflux.be/img/farmaflux_logo.svg" width="40%"></IMG>
-
+<img src="https://www.farmaflux.be/img/farmaflux_logo.svg" width="40%">
   </div>
 
 
-
-
-## Basic Processing Purposes
+## Basic Processing Services
 
 > Characteristic of the processing under these purposes is that the data exchange and processing of personal data are approved either by a deliberation of the Information Security Committee (IVC) or through regulation.  
 [Basis Verwerkingsdoeleinden](https://www.farmaflux.be/nl-BE/Membership/VERW/basisverwerkingsdoeleinden~185NL) | [Objectifs de base du traitement](https://www.farmaflux.be/fr-BE/Membership/VERW/objectifs-de-base-du-traitement~185FR)
@@ -24,31 +20,31 @@ Services – Programs – Projects   <br>
 ### PROG GFD-DPP
 The GFD-DPP program focuses on the nominative processing of dispensing data. Specific projects include:
 
-- **PROJ GFD-DPP**: 
+#### **PROJ GFD-DPP**: 
   - FarmaFlux Site:  [GFD](https://www.farmaflux.be/nl-BE/Solutions/GFD-DPP/het-gedeeld-farmaceutisch-dossier~69NL) | [DPP](https://www.farmaflux.be/fr-BE/Solutions/GFD-DPP/le-dossier-pharmaceutique-partage~69FR)
-- **PROJ Pharmaceutical Medication Scheme**: 
+#### **PROJ Pharmaceutical Medication Scheme**: 
   - FarmaFlux Site: [Farmaceutisch Medicatieschema](https://www.farmaflux.be/nl-BE/Blogs/alles-wat-je-moet-weten-over-het-farmaceutisch-medicatieschema~225) | [Schéma de médication Pharmaceutique](https://www.farmaflux.be/fr-BE/Blogs/tout-savoir-sur-le-schema-de-medication-pharmaceutique~225)
-- **PROJ PATIENT-HP @VIDIS**: 
+#### **PROJ PATIENT-HP @VIDIS**: 
   - FarmaFlux Site: [Patient Information Sheet](https://www.farmaflux.be/nl-BE/Blogs/gegevensdeling-met-patienten-zorgverstrekkers-en-overheid-een-nieuw-pioniersal~220NL) | [Patient Information Sheet (FR)](https://www.farmaflux.be/fr-BE/Blogs/partage-des-donnees-avec-les-patientsprestataires-de-soins-et-les-autorites-une-nouvelle-histoire-pionniere~220FR)
 
 ### PROG Assurpharma
 Covers services for insurance institutions (public or private):
 
-- **PROJ Assurpharma**: 
+#### **PROJ Assurpharma**: 
   - FarmaFlux Site: [Assurpharma](https://www.farmaflux.be/nl-BE/Solutions/ASSU/assurpharma~78NL) | [Assurpharma (FR)](https://www.farmaflux.be/fr-BE/Solutions/ASSU/assurpharma~78NL)
 
 ### PROG RaOTD
 Focuses on archiving documents from community pharmacies under the management of tariffing services:
 
-- **PROJ RaOTD**: 
+#### **PROJ RaOTD**: 
   - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/Solutions/RAOTD/raotd~4NL) | [FR](https://www.farmaflux.be/fr-BE/Solutions/RAOTD/raotd~4FR)
 
 ### PROG Registration Systems
 Covers eForm-based registrations from pharmacies to third parties:
 
-- **PROJ COVID-19 Rapid Test Registration**: 
+#### **PROJ COVID-19 Rapid Test Registration**: 
   - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/Solutions/COVID19/registratie-covid-19-ssten~202NL) | [FR](https://www.farmaflux.be/fr-BE/Solutions/COVID19/enregistrement-test-rapide-covid-19~202FR)
-- **PROJ Vaccine Registration**: 
+#### **PROJ Vaccine Registration**: 
   - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/Home) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/VACC/nouveau-vaccination-en-pharmacie-egalement-contre-lape~167FR)
 
 ## Pharmaceutical Care
@@ -59,29 +55,28 @@ Covers eForm-based registrations from pharmacies to third parties:
 ### PROG Vaccination Sensibilisation/awareness Campaigns
 eForms to support vaccination awareness campaigns:
 
-- **PROJ PHM Vaccination**
-  - FarmaFlux Site: 
-  - 
-- **PROJ POPVax 2024-2025**
+#### **PROJ PHM Vaccination**
+  - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/VACC/phm-vaccinatie~248NL) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/VACC/phm-vaccination~248FR)
+#### **PROJ POPVax 2024-2025**
   - FarmaFlux Site:  [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/VACC/popvax-2024-2025~249FR) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/VACC/popvax-2024-2025~249FR)
-- **PROJ POPVax 2023-2024**: 
+#### **PROJ POPVax 2023-2024**: 
   - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/VACC/popvax-2023-2024~214NL) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/VACC/popvax-2023-2024~214FR)
-- **Flu Sensibilisation/awareness 2022**: 
+#### **Flu Sensibilisation/awareness 2022**: 
   - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/Home) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/VACC/sensibilon-grippe-2022~203FR)
-- **COVID Vaccination Sensibilisation/awareness 2021**: 
+#### **COVID Vaccination Sensibilisation/awareness 2021**: 
   - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/VACC/sensibilisation-a-la-vaccination-covid-en-2021~201NL) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/VACC/sensibilisation-a-la-vaccination-covid-en-2021~201FR)
 
 ### PROG Pharmaceutical Care Tools
 
-- **PROJ Benzo**: 
+#### **PROJ Benzo**: 
   - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/Home) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/BEGE/sevrage-benzo~212FR)
-- **PROJ Medication Review**: 
+#### **PROJ Medication Review**: 
   - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/Home) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/BEGE/revue-de-la-medication~212FR)
 
 
 ### PROG Population Health Management
 
-- **PROJ DATA4PHM**: 
+#### **PROJ DATA4PHM**: 
   - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/BEGE/data4phm~213NL) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/BEGE/data4phm~213NL)
 
 ## Statistical Purposes
@@ -91,13 +86,16 @@ eForms to support vaccination awareness campaigns:
 
 ### Monitoring Care Actions
 
-- **PROG Integrated Care**: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/Home) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/GEIN/Home)
-- **PROG Transmural Care**: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/Home) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/TRAN/Home)
-- **PROJ The Green Envelope**
+#### **PROG Integrated Care**:
+- FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/Home) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/GEIN/Home)
+#### **PROG Transmural Care**:
+- FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/Home) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/TRAN/Home)
+#### **PROJ The Green Envelope**
 
 ### Monitoring Use of Medicines and Health Products
 
-- **PROJ Secondary Use**: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/OPVOLG/e) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/OPVOLG/un-acces-plus-facile-pour-leent-a-son-historique-de-delivrance~217FR)
+#### **PROJ Secondary Use**: 
+- FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/OPVOLG/e) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/OPVOLG/un-acces-plus-facile-pour-leent-a-son-historique-de-delivrance~217FR)
 
 ## Scientific Purposes
 
