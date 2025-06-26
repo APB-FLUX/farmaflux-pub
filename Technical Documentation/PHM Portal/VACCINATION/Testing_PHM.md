@@ -4,7 +4,7 @@
 ## Preconditions
 
 Make sure contract "PHM Portal" is enabled for your pharmacy.
-![image](../../../assets/PHM-Vaccinatie/bbec12b3-7cac-4e6a-8454-729883eeb14c)
+
 ![image](../../../assets/PHM-Vaccinatie/bbec12b3-7cac-4e6a-8454-729883eeb14c.png)
 
 Inform APB : nihiiPharmacyNumber you will use to test (barbara.verboven@apb.be)
