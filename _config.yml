@@ -5,7 +5,7 @@ title: "Services - Products - Projects"
 description: "Operational information quickly at hand regarding the active services at FarmaFlux."
 url: "https://apb-flux.github.io/"
 baseurl: ""  # Set to "/repo-name" if hosted in a subdirectory
-theme: cayman
+remote_theme: pages-themes/cayman@v0.2.0
 
 # Enable search
 search_enabled: true
