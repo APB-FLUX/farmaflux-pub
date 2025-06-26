@@ -1,0 +1,41 @@
+# _config.yml
+
+title: "Services - Products - Projects"
+description: "Operational information quickly at hand regarding the active services at FarmaFlux."
+url: "https://apb-flux.github.io/"
+baseurl: ""  # Set to "/repo-name" if hosted in a subdirectory
+
+# Theme
+remote_theme: jameshamann/jekyll-material-theme
+
+# Author info
+author:
+  name: "Farmaflux"
+  email: "support@farmaflux.be"
+
+# Navigation
+nav:
+  - Home: README.md
+  - Technical Documentation: 
+    - PHM Portal: Technical Documentation/PHM Portal/VACCINATION/README.md
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
