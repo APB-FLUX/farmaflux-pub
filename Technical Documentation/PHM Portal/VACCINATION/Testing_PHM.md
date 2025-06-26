@@ -10,8 +10,11 @@ Inform APB : nihiiPharmacyNumber you will use to test (barbara.verboven@apb.be)
 
 ## SDK Launch Steps
 
-- getLaunchUrl for QuestionnaireType: "checkpatient" (Do a checkpatient first so you get all the "popvaxdata". The form will run without this but you will not have any popvaxdata like riskfactors etc. displayed.)
-- getLaunchUrl for QuestionnaireType: "phm"
+1.  getLaunchUrl for QuestionnaireType: "***checkpatient***" (Do a checkpatient first so you get all the "popvaxdata". The form will run without this but you will not have any popvaxdata like riskfactors etc. displayed.)
+2.  getLaunchUrl for QuestionnaireType: "***phm***"
+
+*See also [PharmForm_PHM](PharmForm_PHM.md)*
+
 
 ## How to Test the Application
 
