@@ -1,4 +1,4 @@
-**FLOW DIGITAL CONVENTION FAMILY PHARMACIST FARMAFLUX FRONTEND**
+** FLOW DIGITAL CONVENTION FAMILY PHARMACIST FARMAFLUX FRONTEND **
 
 -	From the pharmacy software, a link must be established to the PHM portal. On this PHM portal, two eForms will be available: one for vaccination and one for the “family pharmacist".
 -	When the pharmacist navigates to the "family pharmacist" section, they will arrive at the mock-up page as shown in the ISV meeting. Here, digital signing can be activated by clicking the "Sign digitally" button in the signing block.
