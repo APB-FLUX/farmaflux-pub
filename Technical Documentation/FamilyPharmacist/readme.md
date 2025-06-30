@@ -1,13 +1,14 @@
 
 # **OPTION 1 = FLOW DIGITAL CONVENTION FAMILY PHARMACIST > FARMAFLUX FRONTEND**
 
--	From the pharmacy software, a link must be established to the PHM portal. On this PHM portal, two eForms will be available: one for vaccination and one for the “family pharmacist".
--	When the pharmacist navigates to the "family pharmacist" section, they will arrive at the mock-up page as shown in the ISV meeting. Here, digital signing can be activated by clicking the "Sign digitally" button in the signing block.
+From the pharmacy software, a link must be established to the PHM portal. On this PHM portal, two eForms will be available: one for vaccination and one for the “family pharmacist".
+
+When the pharmacist navigates to the "family pharmacist" section, they will arrive at the mock-up page as shown in the ISV meeting. Here, digital signing can be activated by clicking the "Sign digitally" button in the signing block.
 
  ![image](https://github.com/user-attachments/assets/fe982160-df64-4014-8733-297b46be05e5)
 
 
--	Next, the eID will be requested, and Nitro will automatically initiate the eID read-out.
+Next, the eID will be requested, and Nitro will automatically initiate the eID read-out.
   -	Technical info eid via nitro (integration will be done by Farmaflux – no actions from ISV demanded)
     -	Hieronder een link naar de documentatie van onze iDentity hub:
       -	https://connectivegroup.my.site.com/s/article/Identity-Hub-Integration-Guide?language=en_US
@@ -19,9 +20,9 @@
   - Farmaflux will also place the information from the CRM of the pharmacy and pharmacy holder onto the agreement.
   - Farmaflux sends the completed agreement with all data fields filled back to Nitro. Nitro adds a timestamp and seal, and returns the document to Farmaflux.
 
-- Farmaflux will archive the signed document and make it available on the PCDH so that it can be consulted via the HUB - METAHUB by the patient and their healthcare providers with a therapeutic relationship. 
+Farmaflux will archive the signed document and make it available on the PCDH so that it can be consulted via the HUB - METAHUB by the patient and their healthcare providers with a therapeutic relationship. 
 
--	The document will also be downloadable from the “family pharmacist” page in the digital signing section.
+The document will also be downloadable from the “family pharmacist” page in the digital signing section.
  ![image](https://github.com/user-attachments/assets/18fac066-0c88-43b8-9992-fdb7a0cb099b)
 
 **Install of Nitro read-out software:**
