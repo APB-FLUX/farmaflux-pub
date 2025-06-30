@@ -107,7 +107,7 @@ eForms to support vaccination awareness campaigns:
 #### **PROJ Medication Review**: 
   - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/Home) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/BEGE/revue-de-la-medication~212FR)
 #### **PROJ Huisapotheker**: 
-  - Technical spec digital signing: 
+  - Technical spec digital signing: https://github.com/APB-FLUX/farmaflux-pub/blob/main/Technical%20Documentation/FamilyPharmacist/readme.md
     
 ### PROG Population Health Management
 
