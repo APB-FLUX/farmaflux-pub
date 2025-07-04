@@ -130,7 +130,7 @@ eForms to support vaccination awareness campaigns:
 
 #### **PROJ PHM Vaccination**
   - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/VACC/phm-vaccinatie~248NL) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/VACC/phm-vaccination~248FR)
-  - Technical Information: [PHM - Vaccination](<Technical Documentation/PHM Portal/VACCINATION/README.md>)
+  - Technical Information: [PHM - Vaccination](<Technical Documentation/PHM Portal/VACCINATION>)
 #### **PROJ POPVax 2024-2025**
   - FarmaFlux Site:  [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/VACC/popvax-2024-2025~249FR) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/VACC/popvax-2024-2025~249FR)
 #### **PROJ POPVax 2023-2024**: 
