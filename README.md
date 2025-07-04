@@ -7,7 +7,7 @@
     padding: 1.5rem;
   }
 
-  h1, h2, {
+  h1, h2 {
     color: #207a3c;
     text-align: center;
     margin-top: 2rem;
