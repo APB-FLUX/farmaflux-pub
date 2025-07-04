@@ -1,3 +1,44 @@
+<style>
+  body {
+    font-family: Calibri, sans-serif;
+    line-height: 1.6;
+    max-width: 960px;
+    margin: auto;
+    padding: 1.5rem;
+  }
+
+  h1, h2 {
+    color: #207a3c;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  img {
+    display: block;
+    margin: 1rem auto;
+  }
+
+  i {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #555;
+  }
+
+  ul, ol {
+    margin-left: 2rem;
+  }
+
+  a {
+    color: #207a3c;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+
 # PHM Portal - Vaccination
 The PHM Portal (Population Health Management Portal) is a consolidated platform that supports pharmacists in managing health data and optimizing patient care by providing insights into the health of individual patients as well as pharmacy-level insights, allowing pharmacies to benchmark themselves at the meso and macro levels.
 
