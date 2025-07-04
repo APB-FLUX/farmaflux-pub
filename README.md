@@ -13,11 +13,6 @@
     margin-top: 2rem;
   }
 
- h3, h4 {
-    color: #207a3c;
-    margin-top: 2rem;
-  }
-
   img {
     display: block;
     margin: 1rem auto;
