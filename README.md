@@ -1,3 +1,44 @@
+<style>
+  body {
+    font-family: Calibri, sans-serif;
+    line-height: 1.6;
+    max-width: 960px;
+    margin: auto;
+    padding: 1.5rem;
+  }
+
+  h1, h2, h3, h4 {
+    color: #207a3c;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  img {
+    display: block;
+    margin: 1rem auto;
+  }
+
+  i {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #555;
+  }
+
+  ul, ol {
+    margin-left: 2rem;
+  }
+
+  a {
+    color: #207a3c;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+
 <div style="text-align: center" > 
 <H1 style="text-align: center;border : 0"> 
 Services – Programs – Projects   <br>
