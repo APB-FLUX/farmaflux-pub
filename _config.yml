@@ -7,5 +7,8 @@ url: "https://apb-flux.github.io/"
 baseurl: ""  # Set to "/repo-name" if hosted in a subdirectory
 remote_theme: pages-themes/cayman@v0.2.0
 
+plugins:
+  - jekyll-remote-theme
+
 # Enable search
 search_enabled: true
