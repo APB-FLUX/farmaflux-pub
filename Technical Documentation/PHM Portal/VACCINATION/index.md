@@ -38,7 +38,7 @@
     text-decoration: underline;
   }
 </style>
-
+ 
 # PHM Portal - Vaccination
 The PHM Portal (Population Health Management Portal) is a consolidated platform that supports pharmacists in managing health data and optimizing patient care by providing insights into the health of individual patients as well as pharmacy-level insights, allowing pharmacies to benchmark themselves at the meso and macro levels.
 
