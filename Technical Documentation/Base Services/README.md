@@ -10,7 +10,7 @@
 ### Single Message
 
 - Abbreviation	SMC
-- Version	2.0.5 (:information_source: *test on SMC 2.0.6 still to be done* )
+- Version	2.0.5 (:information_source: *test on SMC 2.0.6 still to be done but should work* )
 - Source: [FARMAFLUX - SMC Specifications](<Assurpharma/FARMAFLUX - SMC Specifications>)
 
 
