@@ -1,0 +1,57 @@
+<definitions targetNamespace="https://gfddpp.services.be/" name="TIPSystemServices" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="https://gfddpp.services.be/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wssutil="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+	<types>
+		<xsd:schema>
+			<xsd:import namespace="https://gfddpp.services.be/" schemaLocation="PanoramixTIPSystemServices_protocol-1_0.xsd" />
+		</xsd:schema>
+	</types>
+	<message name="GetBvacDataRequest">
+		<part name="body" element="tns:GetBvacDataRequest" />
+	</message>
+	<message name="GetBvacDataResponse">
+		<part name="body" element="tns:GetBvacDataResponse" />
+	</message>
+	<message name="CheckAliveRequest">
+		<part name="body" element="tns:CheckAliveRequest" />
+	</message>
+	<message name="CheckAliveResponse">
+		<part name="body" element="tns:CheckAliveResponse" />
+	</message>
+	<portType name="PanoramixTIPSystemServices">
+		<operation name="getBvacData">
+			<input message="tns:GetBvacDataRequest" />
+			<output message="tns:GetBvacDataResponse" />
+		</operation>
+		<operation name="checkAlive">
+			<input message="tns:CheckAliveRequest" />
+			<output message="tns:CheckAliveResponse" />
+		</operation>
+	</portType>
+	<binding name="PanoramixTIPSystemServicesPortBinding" type="tns:PanoramixTIPSystemServices">
+		<soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+		<operation name="getBvacData">
+			<soap:operation soapAction="" />
+			<input>
+				<soap:body use="literal" />
+			</input>
+			<output>
+				<soap:body use="literal" />
+			</output>
+		</operation>
+		<operation name="checkAlive">
+			<soap:operation soapAction="" />
+			<input>
+				<soap:body use="literal" />
+			</input>
+			<output>
+				<soap:body use="literal" />
+			</output>
+		</operation>
+
+	</binding>
+	<service name="PanoramixTIPSystemServices">
+		<port name="PanoramixTIPSystemServicesPort" binding="tns:PanoramixTIPSystemServicesPortBinding">
+			<soap:address location="REPLACE_WITH_ACTUAL_URL" />
+		</port>
+	</service>
+</definitions>
+

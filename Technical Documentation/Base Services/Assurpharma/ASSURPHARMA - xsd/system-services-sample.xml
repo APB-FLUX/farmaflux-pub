@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:systemServices xmlns:p="http://services.gfddpp.be/systemservices/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://services.gfddpp.be/systemservices/v2 system-services-v20130927.xsd">
+  <version>2013-11-18T12:00:00</version>
+  <systemServicesList>
+      <systemServicesEntry>
+      <system>
+        <systemType>TIP</systemType>      
+        <systemId>0406753266</systemId>
+      </system>
+      <service>
+        <serviceName>TIPService</serviceName>
+        <URI>https://services-acpt.ehealth.fgov.be/GFDDPP/TIP/v1</URI>
+      </service>
+      <contractList>
+                <contractEntry>
+                               <contractType>BVAC</contractType>
+                                <contractPartyList>
+                                               <contractPartyEntry>
+                                                               <contractPartyType>DKV</contractPartyType>
+                                                               <contractPartyID>0739</contractPartyID>
+                                               </contractPartyEntry>
+                                               <contractPartyEntry>
+                                                               <contractPartyType>Ethias</contractPartyType>
+                                                               <contractPartyID>0196</contractPartyID>
+                                               </contractPartyEntry>
+								</contractPartyList>
+				</contractEntry>
+	</contractList>
+    </systemServicesEntry>
+    <systemServicesEntry>
+      <system>
+        <systemType>PCDH</systemType>
+        <systemId>0406753266</systemId>
+      </system>
+      <service>
+        <serviceName>PCDHService</serviceName>
+        <URI>https://services-acpt.ehealth.fgov.be/GFDDPP/PCDH/v1</URI>
+      </service>
+    </systemServicesEntry>
+  </systemServicesList>
+</p:systemServices>

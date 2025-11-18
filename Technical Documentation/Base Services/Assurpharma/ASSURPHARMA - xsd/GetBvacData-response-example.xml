@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+	<S:Header>
+		<WorkContext xmlns="http://oracle.com/weblogic/soap/workarea/">rO0ABXdmACl3ZWJsb2dpYy5hcHAuYmUtYXBiLWdmZGRwcC1lYXItVElQU3lzdGVtcwAAANYAAAAjd2VibG9naWMud29ya2FyZWEuU3RyaW5nV29ya0NvbnRleHQADDEuMC1TTkFQU0hPVAAA</WorkContext>
+	</S:Header>
+	<S:Body>
+		<ns2:GetBvacDataResponse xmlns:ns2="https://gfddpp.services.be/">
+			<RoutingParameters>
+				<CBFA>5000</CBFA>
+				<RequestorId>ASSURCARD</RequestorId>
+			</RoutingParameters>
+			<Status>
+				<Type>FUNCTIONAL</Type>
+				<Code>TIP_200</Code>
+				<Message Lang="EN">Success</Message>
+				<Message Lang="FR">Succès</Message>
+				<Message Lang="NL">Succes.</Message>
+			</Status>
+			<BvacList>
+				<Bvac>
+					<CBFA>5000</CBFA>
+					<SGUID>ee30563c-cc86-43e4-8238-756eb74727a0</SGUID>
+					<BvacDocumentId>92821119-8f22-4582-91ff-15a1187b04f0</BvacDocumentId>
+					<EncryptedSymmetricKey>VGhpcyBpcyBhbiBlbmNyeXB0aW9uIGtleQ==</EncryptedSymmetricKey>
+					<SingleMessageSealed>VGhpcyBpcyBhbiBub3QgZW5jb2RlZCBidmFjIG1lc3NhZ2U=</SingleMessageSealed>
+				</Bvac>
+				<Bvac>
+					<CBFA>5000</CBFA>
+					<SGUID>07f169cc-09b5-4281-9a28-fd645d7e0e8f</SGUID>
+					<BvacDocumentId>017996a2-8c8f-471d-8dc8-0cc769d56d90</BvacDocumentId>
+					<EncryptedSymmetricKey>VGhpcyBpcyBhbiBlbmNyeXB0aW9uIGtleQ==</EncryptedSymmetricKey>
+					<SingleMessageSealed>VGhpcyBpcyBhbiBub3QgZW5jb2RlZCBidmFjIG1lc3NhZ2U=</SingleMessageSealed>
+				</Bvac>
+			</BvacList>
+		</ns2:GetBvacDataResponse>
+	</S:Body>
+</S:Envelope>

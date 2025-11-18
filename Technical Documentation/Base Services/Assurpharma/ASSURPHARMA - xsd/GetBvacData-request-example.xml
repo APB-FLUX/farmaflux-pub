@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:gfd="https://gfddpp.services.be/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<gfd:GetBvacDataRequest>
+			<RoutingParameters>
+				<TIPId>0406753266</TIPId>
+			</RoutingParameters>
+			<EncryptedSymmetricKey>NWKjl2oy80HXjLfQm7cDafTozW8TnfzcXs8rLZGivEtpDvyXopRMWIbvDbjlMR4Xv81dwpw+Q9AzR6J5aJcbwSdaf43dPCH0xY36mIsYDyCOMRZVHV9xySLXbD/F85a6oxs4SFiFykxYp0TtgAVky659f9mC6efQ07P33X94rJ7LJ3Im18h7f92a0K6qr0peoCshKnyqhPlPnlS7R+t30fdYGxznasA7i6kntrjJJZvccBMoWYrb7zRXEUC7EjxVYQh8mH2oCSthqyXYdHGDyguer8rBpes0OhtSr7p+sktUkvZu9boyk4ovbRMLf7Z9JKE6zYDBWPvNaaLILVxCqA==
+			</EncryptedSymmetricKey>
+			<RequestParametersSealed>d9pHDzT3JB+goXbXupjUHn94P5/7A0tpWMMvwb3IkuPcu9mmaGOqK9BgGk5ALAIIZf88Wc+OHmTYx56PXx2JtB4TYz29Vb5PpiznLhj9E6J6+mrPT6HH9aLOZu2PV0UuWuQG29R31bKfoBbyWOS0LNK74P43e/alt76XV5Jl1DYfAjmcpnNlXgIeeJG52tjsq0myaQ0s7YuiqLL7JauirrotcHAjwHbwgZMy7Av3Af1o9xrlRAJLBKb6Si0EARScvlmntOwAgnSNSMJqcYPJX76skXtRl2UjF3gR+jnGBfGgKbz78uWGM2GlJoHrF/CazoJmHDDAFqtcpD3SMz7hfiihviOZjwcZ5/7Hdy1YK1uKPdP6eE5xIBJ1UoAXh0T8NGg93AAV8kTBvqxeRkjZXW/bsCYN4BOkCXHeAbc/1Ufh7IYk/lnnGS3HMor9ySYxzxGVG+c1Se7LPB+S/zf7w3QHJN6raucmOecTPrkRlPxox9L8a9AtckM0dr4hBzj+tlWaYDTq497MA7itRg18HFrau602hP/pqXyxcD0TG6hmC2as+DcFls1jsl6DAkZ1eCJWz+zzNjwdjUiAG/415fom72QnT/wS8i8JihjIMCPdqiQlqelEfp92CTVH5Bb4Mp9DxD+I6B86C72PHaFdAeiDsCi/40eQ8YbVJdyjM0owHQIZSx+iPcHdlVUZk7GsWQsnHXOHKtiFA6zqozsfDuRoPlRL3nkFRUoN2ReYgws8JxB23mkcsTNHyJTjwfu4GPF4rsKmZDXXkPFRaIxQQx6BGU+vToYUYaYQVYxhMt/VYxmg73JzUXqCVGXPDofsEEJIgBDVUA5bEoc/80l9hNNxZktpGD0URIeDORUurFVAB6k08ejQK8iXeXdVOeQY
+			</RequestParametersSealed>
+		</gfd:GetBvacDataRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

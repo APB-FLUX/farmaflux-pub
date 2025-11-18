@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<single-message xmlns:ns2="http://www.apb.be/standards/smoa/schema/model/v1" xmlns="http://www.apb.be/standards/smoa/schema/v1" xmlns:ns4="http://www.apb.be/standards/smoa/schema/code/v1" xmlns:ns3="http://www.apb.be/standards/smoa/schema/id/v1" xmlns:ns5="http://www.ehealth.fgov.be/standards/kmehr/schema/v1" xmlns:ns6="http://www.w3.org/2000/09/xmldsig#" xmlns:ns7="http://www.w3.org/2001/04/xmlenc#">
+    <unsigned>
+        <header>
+            <version>2.0.2</version>
+            <messageCreateDate>2015-02-24T11:41:51.122+01:00</messageCreateDate>
+            <messageID>ffb85473-6cbb-918e-41a6-42086a08c78a</messageID>
+            <sender>
+                <ns2:refPharmacy>
+                    <ns2:pharmacyId xsi:type="ns3:NihiiIdType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <ns3:nihiiPharmacyNumber>27455948</ns3:nihiiPharmacyNumber>
+                    </ns2:pharmacyId>
+                </ns2:refPharmacy>
+            </sender>
+        </header>
+        <eventFolder>
+            <events>
+                <event xsi:type="BvacEventType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <id>32bc1e8a-19e8-a367-5531-d7ae0dadbced</id>
+                    <PharmacyList>
+                        <ns2:pharmacy>
+                            <ns2:identification>
+                                <ns2:id>27455948</ns2:id>
+                            </ns2:identification>
+                            <ns2:identity>
+                                <ns2:name>Pharmacie de Naboo</ns2:name>
+                            </ns2:identity>
+                            <ns2:bvacList>
+                                <ns2:bvacDocument>
+                                    <ns2:identification>
+                                        <ns2:id>572c3320-63de-c947-c12b-96fcdc07cd86</ns2:id>
+                                        <ns2:barCode>
+                                            <ns2:insurer>6000</ns2:insurer>
+                                            <ns2:key1>9912319984</ns2:key1>
+                                        </ns2:barCode>
+                                    </ns2:identification>
+                                    <ns2:currency>EUR</ns2:currency>
+                                    <ns2:deliveryDate>2015-02-24+01:00</ns2:deliveryDate>
+                                    <ns2:patient>
+                                        <ns2:identity>
+                                            <ns2:name>JAGGER</ns2:name>
+                                            <ns2:firstName>MICK</ns2:firstName>
+                                        </ns2:identity>
+                                    </ns2:patient>
+                                    <ns2:doctor>
+                                        <ns2:identification>
+                                            <ns2:inamiNumber>10000106999</ns2:inamiNumber>
+                                        </ns2:identification>
+                                        <ns2:identity>
+                                            <ns2:name>RICHARDS</ns2:name>
+                                            <ns2:firstName>KEITH</ns2:firstName>
+                                        </ns2:identity>
+                                    </ns2:doctor>
+                                    <ns2:productList>
+                                        <ns2:product>
+                                            <ns2:identification>
+                                                <ns2:productTypeId>1</ns2:productTypeId>
+                                                <ns2:id>000000002837409</ns2:id>
+                                            </ns2:identification>
+                                            <ns2:description>
+                                                <ns2:fullDescription>Amlor 5 mg caps 98 x 5 mg</ns2:fullDescription>
+                                            </ns2:description>
+                                            <ns2:quantity>1</ns2:quantity>
+                                            <ns2:amounts>
+                                                <ns2:publicPrice>13.80</ns2:publicPrice>
+                                                <ns2:paidPrice>1.94</ns2:paidPrice>
+                                            </ns2:amounts>
+                                        </ns2:product>
+                                        <ns2:product>
+                                            <ns2:identification>
+                                                <ns2:productTypeId>2</ns2:productTypeId>
+                                                <ns2:id>000000000000000</ns2:id>
+                                            </ns2:identification>
+                                            <ns2:description>
+                                                <ns2:fullDescription>UREE 5 g   VASELINE BLANCHE ad 100 g   Pommade dermique I   </ns2:fullDescription>
+                                            </ns2:description>
+                                            <ns2:quantity>1</ns2:quantity>
+                                            <ns2:amounts>
+                                                <ns2:publicPrice>22.97</ns2:publicPrice>
+                                                <ns2:paidPrice>0.64</ns2:paidPrice>
+                                            </ns2:amounts>
+                                        </ns2:product>
+                                    </ns2:productList>
+                                    <ns2:totalAmounts>
+                                        <ns2:totalPublicPrice>36.77</ns2:totalPublicPrice>
+                                        <ns2:totalPaidPrice>2.58</ns2:totalPaidPrice>
+                                        <ns2:totalHomeopathie>0.00</ns2:totalHomeopathie>
+                                    </ns2:totalAmounts>
+                                </ns2:bvacDocument>
+                            </ns2:bvacList>
+                        </ns2:pharmacy>
+                    </PharmacyList>
+                </event>
+            </events>
+        </eventFolder>
+    </unsigned>
+</single-message>

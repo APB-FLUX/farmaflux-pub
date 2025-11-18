@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<single-message xmlns:ns2="http://www.apb.be/standards/smoa/schema/model/v1" xmlns="http://www.apb.be/standards/smoa/schema/v1" xmlns:ns4="http://www.apb.be/standards/smoa/schema/code/v1" xmlns:ns3="http://www.apb.be/standards/smoa/schema/id/v1" xmlns:ns5="http://www.ehealth.fgov.be/standards/kmehr/schema/v1" xmlns:ns6="http://www.w3.org/2000/09/xmldsig#" xmlns:ns7="http://www.w3.org/2001/04/xmlenc#">
+    <unsigned>
+        <header>
+            <version>2.0.2</version>
+            <messageCreateDate>2015-01-13T13:11:12.812+01:00</messageCreateDate>
+            <messageID>ce90f240-a551-7450-b655-70659e4457df</messageID>
+            <sender>
+                <ns2:refPharmacy>
+                    <ns2:pharmacyId xsi:type="ns3:NihiiIdType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <ns3:nihiiPharmacyNumber>27456641</ns3:nihiiPharmacyNumber>
+                    </ns2:pharmacyId>
+                </ns2:refPharmacy>
+            </sender>
+        </header>
+        <eventFolder>
+            <events>
+                <event xsi:type="BvacEventType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <id>35791130-9380-93dd-fb91-4d16e63c1a3d</id>
+                    <PharmacyList>
+                        <ns2:pharmacy>
+                            <ns2:identification>
+                                <ns2:id>27456641</ns2:id>
+                            </ns2:identification>
+                            <ns2:identity>
+                                <ns2:name>Apo RIZIV nr. 27456641</ns2:name>
+                            </ns2:identity>
+                            <ns2:bvacList>
+                                <ns2:bvacDocument>
+                                    <ns2:identification>
+                                        <ns2:id>e4363d37-9d4b-ff66-cc17-76fa716ec41f</ns2:id>
+                                        <ns2:barCode>
+                                            <ns2:insurer>6000</ns2:insurer>
+                                            <ns2:key1>9912319994</ns2:key1>
+                                        </ns2:barCode>
+                                    </ns2:identification>
+                                    <ns2:currency>EUR</ns2:currency>
+                                    <ns2:deliveryDate>2015-01-13</ns2:deliveryDate>
+                                    <ns2:patient>
+                                        <ns2:identification>
+                                            <ns2:id>99123199940</ns2:id>
+                                        </ns2:identification>
+                                        <ns2:identity>
+                                            <ns2:name>Jagger</ns2:name>
+                                            <ns2:firstName>Mick</ns2:firstName>
+                                        </ns2:identity>
+                                        <ns2:birthDate>1999-12-31</ns2:birthDate>
+                                    </ns2:patient>
+                                    <ns2:doctor>
+                                        <ns2:identification>
+                                            <ns2:inamiNumber>10000106999</ns2:inamiNumber>
+                                        </ns2:identification>
+                                        <ns2:identity>
+                                            <ns2:name>Fictief - KI tabletten</ns2:name>
+                                            <ns2:firstName> </ns2:firstName>
+                                        </ns2:identity>
+                                    </ns2:doctor>
+                                    <ns2:productList>
+                                        <ns2:product>
+                                            <ns2:identification>
+                                                <ns2:productTypeId>1</ns2:productTypeId>
+                                                <ns2:id>000000002837409</ns2:id>
+                                            </ns2:identification>
+                                            <ns2:description>
+                                                <ns2:fullDescription>AMLOR  5 MG CAPS  98 X 5 MG</ns2:fullDescription>
+                                            </ns2:description>
+                                            <ns2:quantity>1</ns2:quantity>
+                                            <ns2:amounts>
+                                                <ns2:publicPrice>13.80</ns2:publicPrice>
+                                                <ns2:paidPrice>3.24</ns2:paidPrice>
+                                            </ns2:amounts>
+                                        </ns2:product>
+                                        <ns2:product>
+                                            <ns2:identification>
+                                                <ns2:productTypeId>2</ns2:productTypeId>
+                                                <ns2:id>000000000000000</ns2:id>
+                                            </ns2:identification>
+                                            <ns2:description>
+                                                <ns2:fullDescription>Magistraal: 9748 (Zalf 100,00 g)</ns2:fullDescription>
+                                            </ns2:description>
+                                            <ns2:quantity>1</ns2:quantity>
+                                            <ns2:amounts>
+                                                <ns2:publicPrice>22.96</ns2:publicPrice>
+                                                <ns2:paidPrice>2.40</ns2:paidPrice>
+                                            </ns2:amounts>
+                                        </ns2:product>
+                                    </ns2:productList>
+                                    <ns2:totalAmounts>
+                                        <ns2:totalPublicPrice>36.76</ns2:totalPublicPrice>
+                                        <ns2:totalPaidPrice>5.64</ns2:totalPaidPrice>
+                                        <ns2:totalHomeopathie>0.00</ns2:totalHomeopathie>
+                                    </ns2:totalAmounts>
+                                </ns2:bvacDocument>
+                            </ns2:bvacList>
+                        </ns2:pharmacy>
+                    </PharmacyList>
+                </event>
+            </events>
+        </eventFolder>
+    </unsigned>
+</single-message>

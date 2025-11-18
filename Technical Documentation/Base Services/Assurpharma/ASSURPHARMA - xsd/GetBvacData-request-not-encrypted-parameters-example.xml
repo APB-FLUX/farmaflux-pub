@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="true"?>
+<tns:AssuraliaRequestParameters xmlns:tns="https://gfddpp.services.be/">
+		<CBFA>5000</CBFA>
+		<RequestorId>ASSURCARD</RequestorId>
+		<SignatureType>
+			<DateTime>2014-09-24T10:53:52.000Z</DateTime>
+			<Signature>h18PDZ/HHvkxHjnuOG97y80A6fI9jn7IZEh19NANJmhP0md3hHxIs8c1MooNBQS2akHLlOxsfWvpvamQR8U+QKmrPrw+jKWozvvftjBus+6ncrZ5H8LO5EZozyljIobHyak9UXhfmUdOdsJ04zFSpdYlXaINe+JiRQRhdMu7x33Zy3LNW0fx8W9E8Mul26P/eZmmQVyJqoRROBEzNWfbVHqYLcHEM/5bmCW9go9RyFraX045QEMOUDTDw0vovzEXCRKPdJw1WmExaoT+B5iKVGzK9RrtSR6ZVepVhofSt+sPZ2cBWgTGa+yp3dZZBT21BJ6tYFWqSnbnUc4Jn7MS4Q==</Signature>
+		</SignatureType>
+</tns:AssuraliaRequestParameters>

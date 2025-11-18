@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:tns="https://gfddpp.services.be/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://gfddpp.services.be/" version="1.0">
+	<xs:element name="GetBvacDataRequest" type="tns:GetBvacDataRequest"/>
+	<xs:element name="GetBvacDataResponse" type="tns:GetBvacDataResponse"/>
+	<xs:element name="CheckAliveRequest" type="tns:CheckAliveRequest"/>
+	<xs:element name="CheckAliveResponse" type="tns:CheckAliveResponse"/>
+	<xs:complexType name="GetBvacDataRequest">
+		<xs:sequence>
+			<xs:element name="RoutingParameters" type="tns:RoutingParameters"/>
+			<xs:element name="EncryptedSymetricKey" type="xs:base64Binary" />
+			<xs:element name="RequestParametersSealed" type="xs:base64Binary"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetBvacDataResponse">
+		<xs:sequence>
+			<xs:element name="RoutingParameters" type="tns:RoutingParametersCBFA" minOccurs="0"/>
+			<xs:element name="Status" type="tns:Status"/>
+			<xs:element name="BvacList" type="tns:BvacList"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CheckAliveRequest">
+		<xs:sequence/>
+	</xs:complexType>
+	<xs:complexType name="CheckAliveResponse">
+		<xs:sequence>
+			<xs:element name="RoutingParameters" type="tns:RoutingParameters" minOccurs="0"/>
+			<xs:element name="Status" type="tns:Status"/>
+			<xs:element name="CheckAliveResult" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RoutingParameters">
+		<xs:sequence>
+			<xs:element name="TIPId" type="tns:CBE"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RoutingParametersCBFA">
+		<xs:sequence>
+			<xs:element name="TIPId" type="tns:CBE"/>
+			<xs:element name="CBFA" type="xs:string"/>
+			<xs:element name="RequestorId" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="CBE">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{10}" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="Status">
+		<xs:sequence>
+			<xs:element name="Type" type="xs:string"/>
+			<xs:element name="Code" type="xs:string"/>
+			<xs:element name="Message" minOccurs="1" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="Lang" type="xs:string" use="required"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="BvacList">
+		<xs:sequence>
+			<xs:element name="Bvac" type="tns:Bvac" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Bvac">
+		<xs:sequence>
+			<xs:element name="CBFA" type="xs:string"/>
+			<xs:element name="SGUID" type="xs:string"/>
+			<xs:element name="BvacDocumentId" type="xs:string"/>
+			<xs:element name="EncryptedSymmetricKey" type="xs:base64Binary" />
+			<xs:element name="SingleMessageSealed" type="xs:base64Binary" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
