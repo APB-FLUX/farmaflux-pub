@@ -73,6 +73,7 @@ Services – Programs – Projects   <br>
   - [PROG Pharmaceutical Care Tools](#prog-pharmaceutical-care-tools)
     - [**PROJ Benzo**:](#proj-benzo)
     - [**PROJ Medication Review**:](#proj-medication-review)
+    - [**PROJ Huisapotheker**:](#proj-huisapotheker)
   - [PROG Population Health Management](#prog-population-health-management)
     - [**PROJ DATA4PHM**:](#proj-data4phm)
 - [Statistical Purposes](#statistical-purposes)
@@ -105,6 +106,7 @@ Covers services for insurance institutions (public or private):
 
 #### **PROJ Assurpharma**: 
   - FarmaFlux Site: [Assurpharma](https://www.farmaflux.be/nl-BE/Solutions/ASSU/assurpharma~78NL) | [Assurpharma (FR)](https://www.farmaflux.be/fr-BE/Solutions/ASSU/assurpharma~78NL)
+  - [Technical Documentation:](<Technical Documentation/Base Services/README#assurpharma-technical-documentation>)
 
 ### PROG RaOTD
 Focuses on archiving documents from community pharmacies under the management of tariffing services:

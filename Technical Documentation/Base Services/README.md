@@ -1,37 +1,52 @@
-# Assurpharma Technical Documentation
+### Base Services - Technical Documentation
+- [Assurpharma Technical Documentation](#assurpharma-technical-documentation)
+  - [Integration Specification](#integration-specification)
+  - [Overview of the referenced data and their compatibility.](#overview-of-the-referenced-data-and-their-compatibility)
+    - [Single Message](#single-message)
+    - [Pharmacy SDK](#pharmacy-sdk)
+    - [Application Design](#application-design)
+    - [BVAC Document message formats](#bvac-document-message-formats)
+    - [AssurPharma Webservices Specification for insurers](#assurpharma-webservices-specification-for-insurers)
+    - [AssurPharma CBFA Configuration](#assurpharma-cbfa-configuration)
+    - [12.7	Assuralia Identification  Insurers](#127assuralia-identification--insurers)
+    - [12.8	TIP System Services](#128tip-system-services)
+    - [12.9	GetBVAC WebService Error Messages](#129getbvac-webservice-error-messages)
 
-## Integration Specification 
+
+## Assurpharma Technical Documentation
+
+### Integration Specification 
 
 * [doc] [ASSURPHARMA Integration Specification v2.3.1](<Assurpharma/ASSURPHARMA - Integration Specifications/ASSURPHARMA_IntegrationSpecification_v2.3.1.docx>)
-* [pdf]
+* [pdf] [ASSURPHARMA_IntegrationSpecification_v2.3.1](<Assurpharma/ASSURPHARMA - Integration Specifications/ASSURPHARMA_IntegrationSpecification_v2.3.1.pdf>)
 
 
-## Overview of the referenced data and their compatibility.  
-### Single Message
+### Overview of the referenced data and their compatibility.  
+#### Single Message
 
 - Abbreviation	SMC
 - Version	2.0.5 (:information_source: *test on SMC 2.0.6 still to be done but should work* )
 - Source: [FARMAFLUX - SMC Specifications](<Assurpharma/FARMAFLUX - SMC Specifications>)
 
 
-### Pharmacy SDK 
+#### Pharmacy SDK 
 - Abbreviation	SDK
 - Source
   - ftp.apb.be 
   - user: anonymous pwd: /
   - subfolder /SDK
 
-### Application Design
+#### Application Design
 - Abbreviation	ASSURPHARMA AD
 - Source: [ASSURPHARMA - Application Design](<Assurpharma/ASSURPHARMA - Application Design>)
 
 
-### BVAC Document message formats
+#### BVAC Document message formats
 - Abbreviation	BVAC Document Format
 - Source:	[Bijlage 3 - Panoramix - message format3 - update 2023](<Assurpharma/ASSURPHARMA - BVAC xml/Bijlage 3 - Panoramix - message format3 - update 2023.xlsx>)
 
 
-### AssurPharma Webservices Specification for insurers
+#### AssurPharma Webservices Specification for insurers
 - Abbreviation	WSDl Insurer
 - Source
   - [Acceptance]
@@ -44,7 +59,7 @@
     - [PanoramixTIPSystemServices] [getBvacData] [getBvacData] [getBvacDataResponse]
     - [PanoramixTIPSystemServices] [checkAlive] [checkAlive] [checkAliveResponse]
 
-### AssurPharma CBFA Configuration
+#### AssurPharma CBFA Configuration
  - Abbreviation:	CBFA Configuration
     - Source: [xsd](<Assurpharma/ASSURPHARMA - xsd/assurharma-bvac-configuration.xsd>)
 
@@ -66,21 +81,21 @@ Per party involved in Panoramix we have an <insurer> entry
     -	we have a \<transport-key> which points to the location of the public certificate of the party doing the transport 
 	
 
-### 12.7	Assuralia Identification  Insurers 
+#### 12.7	Assuralia Identification  Insurers 
 - Abbreviation:	Assuralia Identification Insurer
 - Source	
   - [Full] [Assuralia Identificatie verzekeraars CBFA Panoramix - technical registration parameters - 13-09-2013.xlsx](<Assurpharma/ASSURPHARMA - BVAC xml/Assuralia Identificatie verzekeraars CBFA Panoramix - technical registration parameters - 13-09-2013.xlsx>) (:information_source: *updated list of insurers to be supplied* )
   - [Pilot] [Assuralia Identification Insurers - Pilot](<Assurpharma/ASSURPHARMA - BVAC xml/Assuralia Identification Insurers - Pilot.xlsx>)
 
 
-### 12.8	TIP System Services
+#### 12.8	TIP System Services
 - Abbreviation:	TIP System Services
 - Source	
   - [xsd] [system-services.xsd](<Assurpharma/ASSURPHARMA - xsd/system-services.xsd>)
   - [xml] [system-services-sample.xml](<Assurpharma/ASSURPHARMA - xsd/system-services-sample.xml>)
 
 
-### 12.9	GetBVAC WebService Error Messages
+#### 12.9	GetBVAC WebService Error Messages
 - Abbreviation:	GetBVAC Webservice Error Messages
 - Source	
   - [excell] [Assuralia TIP-Insurer Webservice Error Messages - Pilot.xlsx](<Assurpharma/ASSURPHARMA - BVAC xml/Assuralia TIP-Insurer Webservice Error Messages - Pilot.xlsx>)
