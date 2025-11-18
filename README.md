@@ -106,7 +106,7 @@ Covers services for insurance institutions (public or private):
 
 #### **PROJ Assurpharma**: 
   - FarmaFlux Site: [Assurpharma](https://www.farmaflux.be/nl-BE/Solutions/ASSU/assurpharma~78NL) | [Assurpharma (FR)](https://www.farmaflux.be/fr-BE/Solutions/ASSU/assurpharma~78NL)
-  - [Technical Documentation:](<Technical Documentation/Base Services/README#assurpharma-technical-documentation>)
+  - [Assurpharma Technical Documentation:](<Technical Documentation/Base Services/Assurpharma/README.md>)
 
 ### PROG RaOTD
 Focuses on archiving documents from community pharmacies under the management of tariffing services:

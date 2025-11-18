@@ -1,22 +1,4 @@
-
-- [Assurpharma Technical Documentation](#assurpharma-technical-documentation)
-  - [Integration Specification](#integration-specification)
-  - [Overview of the referenced data and their compatibility.](#overview-of-the-referenced-data-and-their-compatibility)
-    - [Single Message](#single-message)
-    - [Pharmacy SDK](#pharmacy-sdk)
-    - [Application Design](#application-design)
-    - [BVAC Document message formats](#bvac-document-message-formats)
-    - [AssurPharma Webservices Specification for insurers](#assurpharma-webservices-specification-for-insurers)
-    - [AssurPharma CBFA Configuration](#assurpharma-cbfa-configuration)
-    - [Assuralia Identification  Insurers](#assuralia-identification--insurers)
-    - [TIP System Services](#tip-system-services)
-    - [GetBVAC WebService Error Messages](#getbvac-webservice-error-messages)
-
-
-
-
-
-<!-- include:./Assurpharma/README.md#TECHDOC-->
+<!--snippet:TECHDOC-->
 ## Assurpharma Technical Documentation
 
 
@@ -104,5 +86,4 @@ Per party involved in Panoramix we have an <insurer> entry
 - Abbreviation:	GetBVAC Webservice Error Messages
 - Source	
   - [excell] [Assuralia TIP-Insurer Webservice Error Messages - Pilot.xlsx](<ASSURPHARMA - BVAC xml/Assuralia TIP-Insurer Webservice Error Messages - Pilot.xlsx>)
--
-<!-- /include-->
+- <!--/snippet-->
