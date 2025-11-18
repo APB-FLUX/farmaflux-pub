@@ -1,6 +1,46 @@
+<style>
+  body {
+    font-family: Calibri, sans-serif;
+    line-height: 1.6;
+    max-width: 960px;
+    margin: auto;
+    padding: 1.5rem;
+  }
+
+  h1, h2 {
+    color: #207a3c;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  img {
+    display: block;
+    margin: 1rem auto;
+  }
+
+  i {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #555;
+  }
+
+  ul, ol {
+    margin-left: 2rem;
+  }
+
+  a {
+    color: #207a3c;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
 
 <div style="text-align: center" > 
-<H1 style="text-align: center;border : 0">
+<H1 style="text-align: center;border : 0"> 
 Services – Programs – Projects   <br>
 </H1>
 
@@ -90,7 +130,7 @@ eForms to support vaccination awareness campaigns:
 
 #### **PROJ PHM Vaccination**
   - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/VACC/phm-vaccinatie~248NL) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/VACC/phm-vaccination~248FR)
-  - Technical Information: [PHM - Vaccination](<Technical Documentation/PHM Portal/VACCINATION/README.md>)
+  - Technical Information: [PHM - Vaccination](<Technical Documentation/PHM Portal/VACCINATION>)
 #### **PROJ POPVax 2024-2025**
   - FarmaFlux Site:  [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/VACC/popvax-2024-2025~249FR) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/VACC/popvax-2024-2025~249FR)
 #### **PROJ POPVax 2023-2024**: 
@@ -106,8 +146,9 @@ eForms to support vaccination awareness campaigns:
   - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/Home) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/BEGE/sevrage-benzo~212FR)
 #### **PROJ Medication Review**: 
   - FarmaFlux Site: [NL](https://www.farmaflux.be/nl-BE/CareInitiatives/Home) | [FR](https://www.farmaflux.be/fr-BE/CareInitiatives/BEGE/revue-de-la-medication~212FR)
-
-
+#### **PROJ Huisapotheker**: 
+  - Technical spec digital signing: https://github.com/APB-FLUX/farmaflux-pub/blob/main/Technical%20Documentation/FamilyPharmacist/readme.md
+    
 ### PROG Population Health Management
 
 #### **PROJ DATA4PHM**: 
